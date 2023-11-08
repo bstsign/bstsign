@@ -1,0 +1,43 @@
+.elementor-field-group > input {
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+.cupload-table {
+  border: none;
+}
+.cupload-table tr td {
+  border: none;
+}
+.cupload-table tr:nth-child(even) {
+  background: #ccc;
+}
+
+i.eicon-trash {
+  cursor: pointer;
+}
+
+.textarea-counter {
+  position: absolute;
+  right: 10px;
+  bottom: -30px;
+}
+
+/* A fix to the widget wrap padding when using a form in inner section */
+.elementor-column-gap-default
+  .elementor-column
+  > .elementor-element-populated
+  > .elementor-form-widget-wrap {
+  padding: 10px;
+}
+
+/* A fix to jQuery.modal modal content always ltr */
+body.rtl form {
+  direction: rtl;
+  text-align: right;
+}
+
+body.ltr form {
+  direction: ltr;
+  text-align: left;
+}
